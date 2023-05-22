@@ -1,0 +1,51 @@
+<br>
+<img style="width:150px;margin-left: 685px;" src="assets/Spotify_Black.png" ><br>
+    <hr style="width:1000%;border: 1px solid rgb(45, 43, 43);">
+<div class="container">
+   
+    <h1 style="margin-left:430px;padding-bottom: 10px;font-weight: bolder;font-size: 28px;">Sign up for free to start listening</h1>
+<div class="login_container">
+    <form [formGroup]="userForm"  (ngSubmit)="submit()" >
+    <div>
+        <label><strong>What's your email?</strong></label><br />
+        <input [formControl]="usernameFormControl" type="text" name='name' placeholder="Enter your email." />
+    </div>
+    <div>
+        <label><strong>Create a password</strong></label><br/>
+        <input [formControl]="passwordFormControl" type="password" name="password" placeholder="create a password" /><br />
+    </div>
+    <div>
+        <label><strong>What should we call you?</strong></label><br />
+        <input [formControl]="username" type="text" name='name' placeholder="Enter a profile name" />
+    </div>
+    
+    <div class="action_bar" style="margin-top:20px;margin-bottom: 10px;">
+        <span 
+        [style.display]="'flex'" 
+        [style.justifyContent]="'flex-start'" 
+        [style.alignItems]="'stretch'"
+        [style.gap]="'5px'"
+        >
+            <input type="checkbox" id="rem" /><label for="rem"><span style="font-size: 12px;"><strong>I would prefer not to receive marketing messages from Spotify</strong></span></label>
+        </span>
+        </div>
+        <div class="action_bar" style="margin-bottom: 15px;">
+            <span 
+            [style.display]="'flex'" 
+            [style.justifyContent]="'flex-start'" 
+            [style.alignItems]="'stretch'"
+            [style.gap]="'5px'"
+            >
+                <input type="checkbox" style="width:17px" id="rem" /><label for="rem"><span  style="font-size: 12px;max-width: 100px;"><strong>Share my registration data with Spotify's content providers for marketing purposes.</strong></span></label>
+            </span>
+            </div>
+        
+            <button class="login" type="submit" [disabled]="userForm.invalid">SIGN UP</button>
+</form>
+    <hr style="width:32%">
+    <h5><strong>Have an account!</strong></h5>
+    <button class="signup" style="width:32%" (click)="login()">LOG IN FOR SPOTIFY</button>
+
+</div>
+
+</div>

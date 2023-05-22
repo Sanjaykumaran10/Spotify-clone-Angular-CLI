@@ -1,0 +1,62 @@
+.spotify_song-card{
+        height: 250px;
+        width: 186px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: initial;
+        background-color: #101010;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.33)2px 3px 8px;
+        padding-left: 14px;
+        padding-right: 14px;
+        position: absolute;
+}
+.spotify_song-card:hover{
+        background-color: #181818;
+}
+
+.spotify_song-card_title{
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+        word-spacing: 0.4px;
+        color:white;
+        margin-top:18px;
+        padding-left: 4px;
+        align-items: initial;
+        text-transform: capitalize;
+}
+.spotify_song-card_thumbnail{
+        background-color: rgb(0,0,0,0.24);
+       box-shadow: rgba(0, 0, 0, 0.988)0px 3px 8px;
+        border-radius: 6px;
+        
+        
+}
+.spotify_song-card_thumbnail {
+        position: relative;
+        
+      }
+      .button-container {
+        position: absolute;
+        bottom: -50px; 
+        right: 3px;
+        transition: transform 0.4s ease-in-out; 
+      }
+      .spotify_song-card_thumbnail:hover .button-container {
+        transform: translateY(-60px);
+        
+      }
+      .button-container img {
+        width: 100px;
+        height: 60px;
+      }
+      
+      
+
+.spotify_song-card_description{
+        display: flex;
+        box-sizing: border-box;
+        padding-left: 6px;
+}

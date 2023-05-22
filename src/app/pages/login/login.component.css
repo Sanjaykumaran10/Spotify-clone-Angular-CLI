@@ -1,0 +1,80 @@
+.login_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="password"]{
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(26, 23, 23);
+    border-radius: 4px;
+    width: 400px;
+    height: 50px;
+}
+
+input::placeholder{
+    color: rgb(45,44,44);
+
+}
+
+#rem{
+    margin-left: 4px;
+    background-color: #1ed760;
+    height: 20px;
+    width: 15px;
+}
+
+.login{
+    background-color: #1ed760;
+    border-radius: 24px;
+    border: none;
+    color: black;
+    padding: 14px;
+    width: 150px;
+    font-weight: bold;
+
+}
+.login:hover{
+    background-color: #1ed760;
+    border-radius: 24px;
+    border: none;
+    color: black;
+    padding: 15px;
+    width: 155px;
+    font-weight: bolder;
+
+}
+
+.signup{
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 2px solid rgb(95, 93, 93);
+    color:grey;
+    padding: 14px;
+    font-weight: bold;
+
+}
+
+.signup:hover{
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 2px solid rgb(159, 151, 151);
+    color:rgb(156, 156, 156);
+    padding: 14px;
+    font-weight: bold;
+
+}
+
+.action_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 412px;
+
+}

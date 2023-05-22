@@ -1,0 +1,13 @@
+<div class="spotify_song-card">
+    <div class="spotify_song-card_thumbnail">
+        <img [src]="playlistThumbnail" width="165" height="165px" style="padding: 5px;" alt="thumbnail"/>
+        <div class="button-container">
+            <svg width="50" height="50"  >
+                <circle cx="25" cy="25" r="23" fill="#1DB954" />
+                <path d="M20 15 L20 35 L35 25 Z" fill="#000000" />
+              </svg>
+          </div>
+    </div>
+    <div class="spotify_song-car_title" style="color:white;font-size: 17px;font-weight: bold;padding-left: 2px;padding-top: 3px;">{{title}}</div>
+    <div class="spotify_song-card_description" style="color:rgba(211, 211, 211, 0.878); font-size: 12px;padding-left: 2px;    position: initial;">{{description}}</div>
+</div>

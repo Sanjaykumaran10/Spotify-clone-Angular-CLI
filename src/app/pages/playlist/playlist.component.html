@@ -1,0 +1,7 @@
+<app-top-nav></app-top-nav>
+<a [routerLink]="['/playlist']" [queryParams]="{ thumbnail: thumbnail, title: title, description: description }">
+    <img [src]="thumbnail" alt="Playlist Thumbnail">
+    <h2>{{ title }}</h2>
+    <p>{{ description }}</p>
+  </a>
+  

@@ -1,0 +1,40 @@
+<br>
+<img style="width:150px;margin-left: 685px;" src="assets/Spotify_Black.png" ><br>
+    <hr style="width:1000%;border: 1px solid rgb(45, 43, 43);">
+<div class="container">
+   
+    <h1 style="font-weight: bolder;padding-bottom: 50px;margin-left:480px">Log in to Spotify</h1>
+<div class="login_container">
+    <form [formGroup]="userForm"  (ngSubmit)="submit()" >
+    <div>
+        <label><strong>Email address or username</strong></label><br />
+        <input [formControl]="usernameFormControl" type="text" name='name' placeholder="Email address or username" />
+    </div>
+    <div>
+        <label><strong>Password</strong></label><br/>
+        <input [formControl]="passwordFormControl" type="password" name="password" placeholder="Password" /><br />
+        <label class="mt-3"><small><a [style.textDecoration]="'underline'"><b>Forgot you Password?</b></a></small></label>
+    </div>
+    <div class="action_bar">
+        <span 
+        [style.display]="'flex'" 
+        [style.justifyContent]="'flex-start'" 
+        [style.alignItems]="'stretch'"
+        [style.gap]="'5px'"
+        >
+            <input type="checkbox" id="rem" /><label for="rem"><span><strong>Remember me</strong></span></label>
+        </span>
+        <button class="login" type="submit" [disabled]="userForm.invalid">LOG IN</button>
+
+    </div>
+</form>
+    <hr style="width:32%">
+    <h5><strong>Don't have an account?</strong></h5>
+    <button class="signup" style="width:32%" (click)="Signup()">SIGN UP FOR SPOTIFY</button>
+
+</div>
+
+</div>
+
+
+  

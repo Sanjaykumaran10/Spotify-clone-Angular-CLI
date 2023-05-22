@@ -1,0 +1,286 @@
+.spotify_home-container_side-bar {
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    background-color: black;
+    height:100vh;
+}
+
+.spotify_home-container_playlist-container{
+    background-color: #121111f5;
+    max-height: 795px; 
+    padding: 10px 0px;
+    overflow-y: auto;
+}
+
+.spotify_home-container_side-bar-items {
+        width:100%;
+        font-size: 14px;
+        color: lightgray;
+        padding-left: 18px;
+        margin: 10px;
+}
+
+.spotify_home-container_side-bar-items> a:hover{
+        cursor: pointer;
+        color:white;
+
+}
+.mt-5 {
+    margin-top: 1rem!important;
+}
+.qfIsl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.playlist_card_collections,
+.playlist_card_collections1,
+.playlist_card_collections2
+{
+    display: flex;
+    gap:28px;
+    max-width: 1500px;
+    overflow: auto;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+
+#song_card_item{
+    min-width:185px;
+    padding-left: 4px;
+    
+}
+
+.nav{
+    position: absolute;
+    z-index: 1;
+}
+
+.focus:hover{
+    text-decoration: underline;
+}
+
+.play:hover{
+    text-decoration: underline;
+}
+
+.play{
+    position: relative; 
+    z-index: 1;
+    width: 1500px;
+
+}
+
+
+.com2{
+    padding-bottom: 22px;
+}
+
+
+.playlist_card_collectio{
+    
+    display: flex;
+    gap:20px;
+    width:149px;
+    overflow: auto;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer{
+    padding-block: 50px;
+    padding-bottom: 25px;
+    background-color: #151515;
+    color: #666873;
+}
+
+.footer__container{
+    max-width: 1160px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.footer__top{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    row-gap: 20px;
+}
+
+.footer__title{
+    margin-left: 29px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__list-link{
+    color: #adaeb6;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.footer__list-link:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer__divider{
+    margin-block: 25px;
+    border:none;
+    border-top: 1px solid rgba(252, 255, 255, 0.734);
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer__list--bottom{
+    flex-direction: row;
+    margin-left: 169px;
+}
+
+.circle {
+    fill: gray;
+    transition: fill 0.3s;
+  }
+  
+  .circle:hover {
+    fill: white;
+  }
+  
+  .r{
+    fill:lightgray;
+  }
+  .r:hover{
+    fill:white;
+  }
+
+.BottomLinksList__Container-sc-1li1pru-0{
+    font-size: 12px;
+    margin-top: 200px;
+    margin-left: 35px;
+    gap: 25px;
+    color:lightgray;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+
+.Link-sc-k8gsk-0 {
+    color:lightgray;
+    text-decoration: none;
+}
+.Link-sc-k8gsk-0 :hover{
+    color:white;
+}
+
+
+/* search */
+
+.playlist_card_collections10
+{
+    display: flex;
+    gap: 70px;
+    max-width: 1500px;
+    overflow: auto;
+    height: 1536px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-bottom: 91px;
+
+
+}
+
+/* song page */
+
+
+.main {
+    display: flex;
+    align-items: initial;
+    height:300px
+  }
+  
+  .thumbnail-container {
+    margin-right: 20px;
+  }
+  
+  .thumbnail-container img {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .info-container {
+    flex: 1;
+  }
+  
+  .tit {
+
+    font-size: 90px;
+    font-weight: bolder;
+    color: white;
+
+  }
+  
+  .desc {
+    padding-top: 20px;
+    font-size: 14px;
+    color: lightgray;
+  }
+
+  .song {
+    display: flex;
+  }
+  
+  .svg-container {
+    display: flex;
+    align-items: center; /* Optional: Center the SVGs vertically */
+  }
+  
+  .svg-container svg {
+    margin-right: 20px; /* Adjust the spacing between SVGs */
+  }
+  
+
+  .head{
+    margin-top: 20px;
+    display: flex;
+    max-width: 1300px;
+    margin-bottom: -32px;
+
+  }
+
+  .d:hover{
+    fill:#11b124;
+  }
+
+  .ss:hover{
+    fill:#0a0606e2;
+  }
+ 
+
+  .Button-sc-y0gtbx-0:hover{
+        width: 100px;
+        height: 35px;
+  }
+
+  
